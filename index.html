@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+  integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display" rel="stylesheet">
+  <title>P2 - Blog-Startseite</title>
+
+  <style>
+    .blog-header-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+  
+
+  <div class="container">
+
+    <!-- Header-->
+      <header>
+        <div class="row  py-2">
+           <div class="col-4">
+             <a class="text-muted p-2" href="#">Abonnieren</a>
+           </div>
+
+           <div class="col-4 text-center">
+             <a  class="blog-header-title text-dark"href="#">Blog-Start-Seite</a>
+           </div>
+           <div class="col-4 text-right">
+             <a class="text-muted p-2" href="#">Suchen</a>
+           </div>
+        </div>
+      </header>
+    <!-- Nav -->
+      <div class="py-1">
+          <nav class="nav d-flex justify-content-between">
+            <a href="#" class="text-muted p-2">Startseite</a>
+            <a href="#" class="text-muted p-2">Gesundheit</a>
+            <a href="#" class="text-muted p-2">Organisation</a>
+            <a href="#" class="text-muted p-2">Technologie</a>
+            <a href="#" class="text-muted p-2">Reviews</a>
+            <a href="#" class="text-muted p-2">Tagträume</a>
+            <a href="#" class="text-muted p-2">Über mich</a>
+          </nav>
+      </div>
+    <!-- Featured Jumbo-->
+        <div class="jumbotron bg-dark text-white">
+          <h1>Moderne Webentwicklung mit Bootstrap</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam ducimus, beatae maiores voluptatibus quis a vel porro ab molestiae est ipsa totam. Reprehenderit quam quos quo perferendis voluptatem obcaecati?</p>
+          <p class="lead"><a href="#">Weiter lesen</a></p>
+        </div>
+       
+    <!-- Featured-->
+    <div class="row mb-5">
+       <div class="col">
+         <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/Tagträume.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <p class="text-primary"><strong>Tagträume</strong></p>
+                 <h3><a href="#" class="text-dark">Kultur im Jahr 2050</a></h3>
+                 <p class="text-muted">31.Dez</p>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius facilis illo enim quidem excepturi, debitis, doloribus omnis esse officia cumque quia, nostrum ipsum neque fugiat. Odio eum odit dolores? Quasi.</p>
+                 <a href="#">Weiter lesen</a>
+               </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/Organisation.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="text-success"><strong>Organisation</strong></p>
+                <h3><a href="#" class="text-dark">Zeitmanagment Tools</a></h3>
+                <p class="text-muted">27.Nov</p>
+                <p>Lorem ipsum dolor sit amet,<strong>Lorem ipsum dolor sit amet.</strong></p>
+                <a href="#">Weiter lesen</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/Projekt Managment.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="text-danger"><strong>Projekt</strong></p>
+                <h3><a href="#" class="text-dark">Projekt-Management</a></h3>
+                <p class="text-muted">1.Dez</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequatur consectetur adipisci a officiis ab blanditiis totam vitae deleniti voluptatum.</p>
+                <a href="#">Weiter lesen</a>
+              </div>
+            </div>
+
+         </div>
+       </div>
+    </div>
+  </div>
+
+    <!-- Content section -->
+    <main class="container">
+      <div class="row py-3">
+    
+        <!-- 3 posts -->
+        <div class="col-md-8">
+          <div class="blog-post mb-5">
+            <h2 class="blog-post-title">Sport lieber morgens oder abends?</h2>
+            <p class="blog-post-meta">3. Februar 2019 von <a href="#">David</a></p>
+            <div class="blog-post-content">
+              <p>Lorem ipsum dolor sit amet.</p>
+              <hr>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              </p>
+              <p>Stet clita kasd gubergren, no sea takimata sanctus est <strong>Lorem ipsum dolor sit amet.</strong> Lorem
+                ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                dolore magna aliquyam erat, sed diam voluptua.</p>
+              <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                est Lorem ipsum dolor sit amet.</p>
+              <h3>Sport nach dem Aufwachen</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              </p>
+              <ul>
+                <li>Labore et dolore</li>
+                <li>Sanctus est Lorem ipsum</li>
+              </ul>
+              <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                est Lorem ipsum dolor sit amet.</p>
+              <h3>Am Ende des Tages Sport treiben</h3>
+              <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                est Lorem ipsum dolor sit amet.</p>
+              <ol>
+                <li>At vero eos et accusam</li>
+                <li>Justo duo dolores</li>
+              </ol>
+              <h3>Fazit</h3>
+              <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                est Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+    
+          <div class="blog-post mb-5">
+            <h2 class="blog-post-title">Dreht sich die Welt immer schneller?</h2>
+            <p class="blog-post-meta">17. Januar 2019 von <a href="#">Marie</a></p>
+            <div class="blog-post-content">
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              </p>
+              <p>Stet clita kasd gubergren, no sea takimata sanctus est <strong>Lorem ipsum dolor sit amet.</strong> Lorem
+                ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                dolore magna aliquyam erat, sed diam voluptua.</p>
+              <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                est Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+    
+          <div class="blog-post mb-5">
+            <h2 class="blog-post-title">Ein Jahr geht zu Ende</h2>
+            <p class="blog-post-meta">31. Dezember 2018 von <a href="#">David</a></p>
+            <div class="blog-post-content">
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+              </p>
+              <h3>Die Errungenschaften 2018</h3>
+              <ol>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Stet clita kasd gubergren</li>
+                <li>At vero eos et accusam</li>
+              </ol>
+              <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat, sed diam voluptua.</p>
+              <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                est Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+              <!-- Pagination -->
+               <!-- <nav class="blog-pagination mb-5">
+                   <a class="btn btn-outline-primary" href="#">Älter</a>
+                    <a class="btn btn-outline-secondary disabled" href="#" >Neuer</a>
+                </nav>-->
+                <nav class="blog-pagination mb-5">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
+                </nav>
+          </div>
+     
+
+      <!-- Sidebar -->
+          <div class="col-md-4">
+            <div class="blog-about mb-5">
+              <h4>Über diesen Blog</h4>
+              <p>Stet clita kasd gubergren, no sea takimata sanctus est <strong>Lorem ipsum dolor sit amet.</strong> Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua.</p> 
+         </div>
+         <div class="blog-archive mb-5">
+               <h4>Historie</h4>
+               <ul class="list-unstyled">
+                 <li><a href="#">Februar 2019</a></li>
+                  <li><a href="#">Januar 2019</a></li>
+                  <li><a href="#">Dezember 2018</a></li>
+                  <li><a href="#">November 2018</a></li>
+                  <li><a href="#">Oktober 2018</a></li>
+                  <li><a href="#">September 2018</a></li>
+                  <li><a href="#">August 2018</a></li>
+                  <li><a href="#">Juli 2018</a></li>
+                  <li><a href="#">Juni 2018</a></li>
+               </ul>
+         </div>
+          <div class="blog-profiles mb-5">
+                <h4 >Weitere Profile</h4>
+             <ul class="list-unstyled">
+              <li ><a class="text-muted" href="#"><i class="fab fa-facebook fa-2x py-2"></i></a></li>
+              <li><a class="text-muted" href="#"><i class="fab fa-instagram-square fa-2x py-2"></i></a></li>
+              <li><a class="text-muted" href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+             </ul>
+          </div>   
+        </div>
+        
+        
+    </div>
+  </main>
+
+  <!-- Footer -->
+      <footer class="bg-light text-center py-3">
+       <p>Erstellt mit <a href="#">Bootstrap</a></p>
+       <p>&copy; bei Gaby  2020</p>
+        <a  href="#"><i class="fab fa-youtube fa-2x text-danger"></i></a>
+        <a  href="#"><i class="fab fa-linkedin-in fa-2x text-primary"></i></a>
+      </footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
